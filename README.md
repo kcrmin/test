@@ -1,4 +1,4 @@
-# testa# FastAPI Boilerplate
+# FastAPI Boilerplate
 This repository provides a comprehensive boilerplate for building web applications using FastAPI. It references the educational content provided by Sanjeev Thiyagarajan's FastAPI course on YouTube and GitHub, offering a structured starting point for developers to quickly set up and deploy FastAPI projects.
 
 ## Project Structure
