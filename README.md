@@ -30,27 +30,27 @@ This repository provides a comprehensive boilerplate for building web applicatio
 
 ### Installation
 1. **Clone this repository to your local machine using:**
-   ```bash
-   git clone https://github.com/kcrmin/FastAPI_Boilerplate.git
-   ```
+    ```bash
+    git clone https://github.com/kcrmin/FastAPI_Boilerplate.git
+    ```
 2. **Open directory:**
-   ```bash
-   cd FastAPI_Boilerplate
-   ```
+    ```bash
+    cd FastAPI_Boilerplate
+    ```
 3. **Set up a virtual environment:**
-   1. Create venv
-   ```bash
-   python3 -m venv venv
-   ```
-   2. Activate venv
-   ```bash
-   source venv/bin/activate  # On macOS
-   myenv\Scripts\activate  # On Windows
-   ```
-   3. Deactivate venv
-   ```bash
-   deactivate
-   ```
+    1. Create venv
+        ``` bash
+        python3 -m venv venv
+        ```
+    2. Activate venv
+        ``` bash
+        source venv/bin/activate  # On macOS
+        myenv\Scripts\activate  # On Windows
+        ```
+    3. Deactivate venv
+        ``` bash
+        deactivate
+        ```
 4. **Configure the virtual environment in VSCode:**
    1. Open Command Palette:
       - Option 1:
@@ -94,7 +94,6 @@ This repository provides a comprehensive boilerplate for building web applicatio
 2. **Access the API documentation:** Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
 
 ### Database Migrations
-
 1. **Initialize Alembic migrations:**
    ```bash
    alembic revision --autogenerate -m "message"
