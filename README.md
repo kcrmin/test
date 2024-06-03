@@ -35,39 +35,40 @@ This repository provides a comprehensive boilerplate for building web applicatio
     ```bash
     cd FastAPI_Boilerplate
     ```
-3. **Set up a virtual environment:**
-    1. **Create venv**
-        ``` bash
-        python3 -m venv venv
-        ```
-    2. **Activate venv**
-        ``` bash
-        source venv/bin/activate  # On macOS
-        myenv\Scripts\activate  # On Windows
-        ```
-    3. **Deactivate venv**
-        ``` bash
-        deactivate
-        ```
-4. **Configure the virtual environment in VSCode:**
-   1. Open Command Palette:
-      - Option 1:
-        - ```Click:``` [Settings] View
-        - ```Click:``` [Settings] Command Palette
-      - Option 2:
-        - ```Enter:``` [Shift + Command + P]
-   2. ```Click:``` Python: Select Interpreter
-   3. ```Click:``` Enter interpreter path…
-   4. ```Enter:``` [./FastAPI_Boilerplate/venv/bin/python]
-5. **Install the required Python packages:**
-    ```bash
-    pip install 'fastapi[all]'
-    pip install 'psycopg[binary, pool]'
-    pip install sqlalchemy
-    pip install 'passlib[bcrypt]'
-    pip install 'python-jose[cryptography]'
-    pip install alembic
+## Set up a virtual environment
+### Setup Venv
+1. **Create venv**
+    ``` bash
+    python3 -m venv venv
     ```
+2. **Activate venv**
+    ``` bash
+    source venv/bin/activate  # On macOS
+    myenv\Scripts\activate  # On Windows
+    ```
+3. **Deactivate venv**
+    ``` bash
+    deactivate
+    ```
+### Configure VSCode Interpreter
+1. Open Command Palette:
+  - Option 1:
+    - ```Click:``` [Settings] View
+    - ```Click:``` [Settings] Command Palette
+  - Option 2:
+    - ```Enter:``` [Shift + Command + P]
+2. ```Click:``` Python: Select Interpreter
+3. ```Click:``` Enter interpreter path…
+4. ```Enter:``` [./FastAPI_Boilerplate/venv/bin/python]
+### Install the required Python packages
+```bash
+pip install 'fastapi[all]'
+pip install 'psycopg[binary, pool]'
+pip install sqlalchemy
+pip install 'passlib[bcrypt]'
+pip install 'python-jose[cryptography]'
+pip install alembic
+```
 
 ## Configuration
 1. **Edit `.env` file:** Store your environment variables in this file.
