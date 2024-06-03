@@ -2,7 +2,6 @@
 This repository provides a comprehensive boilerplate for building web applications using FastAPI. It references the educational content provided by Sanjeev Thiyagarajan's FastAPI course on YouTube and GitHub, offering a structured starting point for developers to quickly set up and deploy FastAPI projects.
 
 ## Project Structure
-
 ```
 /FastAPI_Project
 ├── /alembic
@@ -27,7 +26,6 @@ This repository provides a comprehensive boilerplate for building web applicatio
 ```
 
 ## Getting Started
-
 ### Installation
 1. **Clone this repository to your local machine using:**
     ```bash
@@ -72,25 +70,27 @@ This repository provides a comprehensive boilerplate for building web applicatio
     ```
 
 ## Configuration
-
 1. **Edit `.env` file:** Store your environment variables in this file.
-
+    ```
+    DATABASE_HOSTNAME=localhost
+    DATABASE_PORT=5432
+    DATABASE_PASSWORD=password1234
+    DATABASE_NAME=postgres
+    DATABASE_USERNAME=postgres
+    SECRET_KEY="Random_Secret_Key"
+    ALGORITHM=HS256
+    ACCESS_TOKEN_EXPIRE_MINUTES=30
+    ```
 2. **Edit `app/routers/__init__.py`:** Register routers to the application.
-
 3. **Edit `app/schemas.py`:** Define Pydantic models.
-
 4. **Edit `app/models.py`:** Define SQLAlchemy models.
-
 5. **Add new router files:** Create new router files under `app/routers`.
 
-
 ## Running the Application
-
 1. **Start the FastAPI server:**
    ```bash
    uvicorn app.main:app --reload
    ```
-
 2. **Access the API documentation:** Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
 
 ## Database Migrations
@@ -98,22 +98,18 @@ This repository provides a comprehensive boilerplate for building web applicatio
    ```bash
    alembic revision --autogenerate -m "message"
    ```
-
 2. **Check the current migration:**
    ```bash
    alembic current
    ```
-
 3. **Apply the latest migration:**
    ```bash
    alembic upgrade head
    ```
-
 4. **Revert the last migration:**
    ```bash
    alembic downgrade -1
    ```
-
 
 ## Resources
 
