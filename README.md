@@ -36,16 +36,16 @@ This repository provides a comprehensive boilerplate for building web applicatio
     cd FastAPI_Boilerplate
     ```
 3. **Set up a virtual environment:**
-    1. Create venv
+    1. **Create venv**
         ``` bash
         python3 -m venv venv
         ```
-    2. Activate venv
+    2. **Activate venv**
         ``` bash
         source venv/bin/activate  # On macOS
         myenv\Scripts\activate  # On Windows
         ```
-    3. Deactivate venv
+    3. **Deactivate venv**
         ``` bash
         deactivate
         ```
