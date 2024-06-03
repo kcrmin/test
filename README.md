@@ -71,7 +71,7 @@ This repository provides a comprehensive boilerplate for building web applicatio
     pip install alembic
     ```
 
-### Configuration
+## Configuration
 
 1. **Edit `.env` file:** Store your environment variables in this file.
 
@@ -84,7 +84,7 @@ This repository provides a comprehensive boilerplate for building web applicatio
 5. **Add new router files:** Create new router files under `app/routers`.
 
 
-### Running the Application
+## Running the Application
 
 1. **Start the FastAPI server:**
    ```bash
@@ -93,7 +93,7 @@ This repository provides a comprehensive boilerplate for building web applicatio
 
 2. **Access the API documentation:** Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) in your browser.
 
-### Database Migrations
+## Database Migrations
 1. **Initialize Alembic migrations:**
    ```bash
    alembic revision --autogenerate -m "message"
